@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should render and match the snapshot 1`] = `
+<BrowserRouter>
+  <QueryClientProvider
+    client={
+      QueryClient {
+        "defaultOptions": Object {
+          "queries": Object {
+            "refetchOnWindowFocus": false,
+            "retry": false,
+          },
+        },
+        "logger": BufferedConsole {
+          "Console": [Function],
+          "_buffer": Array [],
+          "_counters": Object {},
+          "_groupDepth": 0,
+          "_timers": Object {},
+          "assert": [Function],
+          "clear": [Function],
+          "count": [Function],
+          "countReset": [Function],
+          "debug": [Function],
+          "dir": [Function],
+          "dirxml": [Function],
+          "error": [Function],
+          "group": [Function],
+          "groupCollapsed": [Function],
+          "groupEnd": [Function],
+          "info": [Function],
+          "log": [Function],
+          "table": [Function],
+          "time": [Function],
+          "timeEnd": [Function],
+          "timeLog": [Function],
+          "trace": [Function],
+          "warn": [Function],
+        },
+        "mutationCache": MutationCache {
+          "config": Object {},
+          "listeners": Array [],
+          "mutationId": 0,
+          "mutations": Array [],
+          "subscribe": [Function],
+        },
+        "mutationDefaults": Array [],
+        "queryCache": QueryCache {
+          "config": Object {},
+          "listeners": Array [],
+          "queries": Array [],
+          "queriesMap": Object {},
+          "subscribe": [Function],
+        },
+        "queryDefaults": Array [],
+      }
+    }
+  >
+    <Helmet
+      defaultTitle="React App"
+      defer={true}
+      encodeSpecialCharacters={true}
+      htmlAttributes={
+        Object {
+          "lang": "en-US",
+        }
+      }
+      prioritizeSeoTags={false}
+      titleTemplate="%s - React App"
+    >
+      <meta
+        content="A React application"
+        name="description"
+      />
+    </Helmet>
+    <Routes>
+      <Route
+        element={<Unknown />}
+        path="/"
+      />
+      <Route
+        element={<Unknown />}
+        path="/add-user"
+      />
+      <Route
+        element={<Unknown />}
+        path="/edit-user"
+      />
+      <Route
+        element={<Unknown />}
+        path="*"
+      />
+    </Routes>
+    <ToastContainer
+      autoClose={2000}
+      closeButton={[Function]}
+      closeOnClick={true}
+      draggable={true}
+      draggableDirection="x"
+      draggablePercent={80}
+      pauseOnFocusLoss={true}
+      pauseOnHover={true}
+      position="top-right"
+      role="alert"
+      theme="light"
+      transition={[Function]}
+    />
+    <Memo(l) />
+  </QueryClientProvider>
+</BrowserRouter>
+`;

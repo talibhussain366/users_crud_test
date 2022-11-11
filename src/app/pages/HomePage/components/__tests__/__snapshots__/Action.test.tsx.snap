@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Action /> <Action /> 1`] = `
+<button
+  className="Action-sc-167rdq9-0 iDezwI"
+/>
+`;

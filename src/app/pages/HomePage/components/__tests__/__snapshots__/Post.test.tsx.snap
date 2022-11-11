@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Post /> <Post /> 1`] = `
+<div
+  className="Post-sc-1lki2ve-0 eiYnZO"
+/>
+`;

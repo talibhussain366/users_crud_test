@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Title /> <Title /> 1`] = `
+<div
+  className="Title-sc-rvokxi-0 cZbDwV"
+/>
+`;
